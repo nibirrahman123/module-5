@@ -1,0 +1,74 @@
+/* global css */
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.btn-primary{
+    width: 150px;
+    height: 60px;
+    background-color: tomato;
+    border-radius: 6px;
+    border: 0;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+.tomato-color{
+    color: tomato;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px 0 210px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 35px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;  
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    font-weight: 600;
+}
+.header{
+    background-color: antiquewhite;
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    background-attachment: fixed;
+}
+/* head section */
+.head-section{
+    padding:30px 100px 0 210px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.head-description{
+    padding-top: 80px;
+    width: 500px;
+}
+.h3{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 0;
+}
+.h1{
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 60px;
+}
