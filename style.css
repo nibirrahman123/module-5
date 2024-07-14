@@ -1,32 +1,32 @@
-/* global css */
 body{
     font-family: sans-serif;
     margin: 0;
 }
 .btn-primary{
-    width: 150px;
-    height: 60px;
+    text-decoration: none;
     background-color: tomato;
-    border-radius: 6px;
-    border: 0;
-    text-transform: uppercase;
+    border:0;
+    padding: 18px 35px;
+    border-radius: 7px;
     color: white;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 20px;
 }
-.tomato-color{
-    color: tomato;
+.section-title{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
 }
+/* nav bar */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 80px 0 210px;
+    margin:0 140px 0 200px;
 }
-.nav-title{
-    font-weight: 800;
-    font-size: 35px;
+.nav-heading{
+    font-size: 45px;
+}
+#r{
+    color: tomato;
 }
 nav > ul{
     display: flex;
@@ -34,41 +34,154 @@ nav > ul{
 }
 nav li{
     list-style: none;
-    margin-right: 50px;  
+    margin-right: 50px;
+
 }
-a{
+nav a{
     text-decoration: none;
-    font-size: large;
     color: black;
-    font-weight: 600;
+    font-size: 20px;
 }
+/* header section */
 .header{
-    background-color: antiquewhite;
+    background-color: rgb(255, 248, 243);
     background-image: url(images/developer.png);
     background-repeat: no-repeat;
     background-position: 30px 30px;
-    background-attachment: fixed;
 }
-/* head section */
-.head-section{
-    padding:30px 100px 0 210px;
+.head-resource{
     display: flex;
     justify-content: space-between;
+    padding:0 140px 0 200px;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position:right bottom;
 }
-.head-description{
-    padding-top: 80px;
-    width: 500px;
+.head-resource1{
+    width: 600px;
+    padding-top: 100px;
 }
-.h3{
+#h3{
     font-size: 45px;
     font-weight: 600;
     line-height: 0;
 }
 .h1{
-    font-size: 85px;
+    font-size: 80px;
     font-weight: 700;
-    line-height: 60px;
+}
+
+.anchor{
+    line-height: 150px;
+}
+.btn-spacing{
+    margin-right: 20px;
+}
+/* this is main part */
+.main-width{
+    margin: 100px 210px 0 210px;
+}
+#p2{
+    text-align: center;
+    margin: 60px ;
+}
+.about{
+    background-color:rgb(255, 248, 243);
+    padding: 100px 300px;
+    
+}
+.about-footer{
+    display: flex;
+    justify-content:space-between;
+}
+.span11{
+    font-weight: 500;
+    font-size: 15px;
+}
+.h33{
+    color: black;
+    font-weight: 600;
+}
+#four-box{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 30px;
+}
+.box{
+    margin-right: 10px ;
+    margin-left: 10px;
+    padding: 60px 40px;
+    
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 10px;
+}
+.desctiption{
+    text-align: justify;
+    color: gray;
+}
+.desc{
+    padding: 20px 400px 20px 400px;
+    text-align: center;
+    color: rgb(117, 117, 117);
+}
+.resumeh1{
+    padding: 70px;
+}
+.resume-heading{
+    font-size: 25px;
+    font-weight: 800;
+}
+.resume{
+    display: flex;
+    justify-content: space-between;
+}
+.resume-part{
+    padding: 5px 100px 5px 0;
+}
+hr{
+    margin: 0 50px 0 0;  
+}
+.btn-align{
+    margin: 70px;
+    text-align: center;
+}
+.footer-background{
+    background-color: rgb(255, 248, 243);
+}
+.footer-heading{
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-flex{
+    display: flex;
+}
+.footer1{
+    padding-right:250px;
+}
+
+.name{
+    height: 64px;
+    width: 464px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.message{
+    height: 180px;
+    width: 464px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.main-width1{
+    margin: 100px 210px 0 210px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
