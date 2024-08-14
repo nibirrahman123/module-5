@@ -48,7 +48,7 @@ nav a{
 .header{
     background-color: rgb(255, 248, 243);
     background-image: url(images/developer.png);
-    background-size: 5vw 36vw;
+    background-size: 4vw 55vh;
     background-repeat: no-repeat;
     background-position: 30px 30px;
 }
@@ -59,13 +59,14 @@ nav a{
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position:right bottom;
-    background-size: 50vw 35vw;
+    background-size: 35vw 25vw;
 }
 .head-resource img{
-    height: 40vw;
+    height: 450px;
+    margin-top: 150px;
 }
 .head-resource1{
-    width: 600px;
+    width: 45%;
     padding-top: 7vw;
 }
 #h3{
@@ -206,6 +207,30 @@ hr{
 }
 
 @media screen and (max-width:576px) {
+
+    .head-resource{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+        margin: 0;
+        padding: 0;
+    }
+    .head-resource img{
+        height: 48vw;
+        width: 42vw;
+    }
+    .head-resource1{
+        text-align: center;
+        width: 80%;  
+    }
+    .anchor{
+        line-height: 70px;
+    }
+    .header{
+        background-image: none;
+    }
+
     #four-box{
         flex-direction: column;
     }
@@ -230,21 +255,27 @@ hr{
     }
 }
 
-@media screen and (min-width:576px) and (max-width:911px) {
-
-    .head-resource1{
-        display: flex;
-    }
+@media screen and (min-width:576px) and (max-width:960px) {
     .head-resource{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-image: none;
+        margin: 0;
+        padding: 0;
     }
     .head-resource img{
-        height: 45vw;
-        width: 40vw;
+        height: 37vw;
+        width: 33vw;
     }
-
-
+    .head-resource1{
+        text-align: center;
+        width: 85%;
+        
+    }
+    .header{
+        background-image: none;
+    }
 
     #four-box{
         display: grid;
@@ -271,5 +302,20 @@ hr{
     .message{
         height: 15vw;
         width: 70vw;
+    }
+}
+@media screen and (min-width:960px) and (max-width:1400px){
+    .header{
+        background-image:none;
+    }
+    .head-resource{
+        background-image: none;
+    }
+    #four-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .box{
+        padding: 5%;
     }
 }
