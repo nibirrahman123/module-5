@@ -219,6 +219,7 @@ hr{
     .head-resource img{
         height: 48vw;
         width: 42vw;
+        margin-top: 0;
     }
     .head-resource1{
         text-align: center;
@@ -267,6 +268,7 @@ hr{
     .head-resource img{
         height: 37vw;
         width: 33vw;
+        
     }
     .head-resource1{
         text-align: center;
